@@ -1,28 +1,28 @@
-body {
-    margin: 0;
-    height: 100vh;
-    background-image: url('assets/cat-pics/hoh.jpg');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+@font-face {
+    font-family: "JBMonoNF";
+    src: url("https://codehs.com/uploads/5ed921fe6aaa521ab4971d92e3a69f77");
 }
 
-#main {
+
+* {
+    font-family: "JBMonoNF";
+}
+html{ 
+    background-image: url("assets/forest-rain.png");
+}
+
+div {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    padding-top: 30vh;
-    width: 40%;
-    margin: auto;
+    align-items: center;
+    margin-top: 40vh;
 }
 
-#cooltext {
-    flex-basis: 100%;
-    max-width: 100%;
-}
 
-#subtext {
-    color: darkgrey;
-    font-family: 'Comic Sans MS';
-    text-align: center;
-    font-size: 30px;
+#test {
+    border: 3px solid rgb(198, 160, 246);
+    border-radius: 10px;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    transition: padding 1s;
 }
