@@ -8,7 +8,7 @@
     font-family: "JBMonoNF";
 }
 html{ 
-    background-image: url("assets/forest-rain.png");
+    background: #24273a;
 }
 
 div {
@@ -23,6 +23,6 @@ div {
     border: 3px solid rgb(198, 160, 246);
     border-radius: 10px;
     padding: 10px;
-    backdrop-filter: blur(10px);
+    background-color: #1e2030;
     text-color: white;
 }
